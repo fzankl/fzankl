@@ -7,7 +7,7 @@ Expert Distributed IIoT-Software Solutions
 I'm working as an Expert Distributed IIoT-Software Solutions and passionate about Azure, .NET & Angular
 
 * 🌍  I'm based in Germany
-* 🖥️  See my portfolio at [fzankl.de](http://www.fzankl.de)
+* 🖥️  See my portfolio at <a href="http://www.fzankl.de" target="_blank" alt="fzankl.de">fzankl.de</a>
 * ✉️  You can contact me at [info@fzankl.de](mailto:info@fzankl.de)
 
 ### Skills

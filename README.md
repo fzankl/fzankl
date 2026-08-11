@@ -4,7 +4,7 @@ Hi 👋 I'm Fabian
 Expert Distributed IIoT-Software Solutions
 ------------------------------------------
 
-I work as an Expert Distributed IIoT Software Solutions and have a passion for Azure, .NET and Angular.
+I work as an Expert Distributed IIoT Software Solutions and I build reliable cloud systems for industrial IoT and enterprise platforms — Azure · .NET · DevOps.
 
 * 🌍  I'm based in Germany
 * 🖥️  See my portfolio at <a href="http://www.fzankl.de" target="_blank" alt="fzankl.de">fzankl.de</a>

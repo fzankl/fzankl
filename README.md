@@ -4,7 +4,7 @@ Hi 👋 I'm Fabian
 Expert Distributed IIoT-Software Solutions
 ------------------------------------------
 
-I work as an Expert Distributed IIoT Software Solutions and I build reliable cloud systems for industrial IoT and enterprise platforms — Azure · .NET · DevOps.
+I work as an Expert Distributed IIoT Software Solutions and I build <br/>reliable cloud systems for industrial IoT and enterprise platforms — Azure · .NET · DevOps.
 
 * 🌍  I'm based in Germany
 * 🖥️  See my portfolio at <a href="http://www.fzankl.de" target="_blank" alt="fzankl.de">fzankl.de</a>
@@ -29,9 +29,3 @@ I work as an Expert Distributed IIoT Software Solutions and I build reliable clo
 ### Socials
 
 <p align="left"> <a href="https://www.github.com/fzankl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a><a href="https://hashnode.com/@fzankl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/hashnode.svg" width="32" height="32" /></a><a href="https://www.linkedin.com/in/zanfab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a><a href="http://www.medium.com/@fzankl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a></p>
-
-### Badges
-
-<b>GitHub Stats</b>
-
-<a href="http://www.github.com/fzankl"><img src="https://github-readme-stats.vercel.app/api?username=fzankl&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="fzankl's GitHub stats" /></a>

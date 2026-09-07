@@ -20,8 +20,8 @@ Articles on [blog.fzankl.de](https://blog.fzankl.de) · Expert Distributed IIoT 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square)
 
 **Azure:** Functions · Flex Consumption · Container Apps · AKS · Virtual Network · Private Link · Log Analytics  
-**Microsoft Fabric:** Eventstream · Event Grid integration · Private connectivity
-**.NET:** C# · ASP.NET Core · Azure Functions isolated worker · .NET Aspire
+**Microsoft Fabric:** Eventstream · Event Grid integration · Private connectivity  
+**.NET:** C# · ASP.NET Core · Azure Functions isolated worker · .NET Aspire  
 **Engineering:** Docker · Terraform · Azure CLI · Azure DevOps · GitHub Actions
 
 ---

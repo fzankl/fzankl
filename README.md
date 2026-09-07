@@ -2,7 +2,7 @@
 
 ### Industrial IoT & Enterprise Platforms - Cloud-Native on Azure
 
-I build cloud systems for industrial IoT and enterprise platforms on Azure. My work runs from **Azure Functions to AKS, in .NET, and private networking** is the part that ties it together.
+I build cloud systems for industrial IoT and enterprise platforms on Azure. My work runs from **Azure Functions to AKS, in .NET**, and **private networking** is the part that ties it together.
 
 More than 15 years in distributed systems, the last ten of them on Microsoft Azure. My samples are written for production questions rather than hello-world demos: what breaks during a migration, how a service behaves behind Private Link, what a landing zone has to provide before a workload can go in.
 
@@ -20,9 +20,9 @@ Articles on [blog.fzankl.de](https://blog.fzankl.de) · Expert Distributed IIoT 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square)
 
 **Azure:** Functions · Flex Consumption · Container Apps · AKS · Virtual Network · Private Link · Log Analytics  
-**Microsoft Fabric:** Eventstream · Private connectivity · Event Grid integration  
-**.NET:** C# · ASP.NET Core · Azure Functions isolated worker · Azure SDKs for .NET  
-**Engineering:** Terraform · Azure CLI  · Azure DevOps · GitHub Actions · CI/CD
+**Microsoft Fabric:** Eventstream · Event Grid integration · Private connectivity
+**.NET:** C# · ASP.NET Core · Azure Functions isolated worker · .NET Aspire
+**Engineering:** Docker · Terraform · Azure CLI · Azure DevOps · GitHub Actions
 
 ---
 
@@ -43,13 +43,13 @@ Private Link, hub-spoke landing zones, third-party Private Link Services, and wh
 
 ### ☁️ [dotnet-10-azure-migration-path](https://github.com/fzankl/dotnet-10-azure-migration-path)
 
-**.NET 10 · Azure Functions · App Service · Container Apps · Shell**
+**.NET 10 · Azure Functions · App Service · Container Apps · Terraform · Azure CLI**
 
 Companion code for the article ".NET 10 in Azure: A Path Through Your Estate". A two-pass inventory script (Resource Graph first, then an ARM fan-out for what Graph cannot see) lists every app and its runtime version as CSV. Alongside it, before/after configuration pairs for the moves the article describes: Functions from in-process to isolated worker on Consumption, Flex Consumption and Elastic Premium, App Service with a staging slot, and a containerised API with a weighted traffic split on Container Apps. The Terraform and application code is there to be read and diffed, not deployed.
 
 ### 🔗 [microsoft-fabric-eventstream-event-grid-integration](https://github.com/fzankl/microsoft-fabric-eventstream-event-grid-integration)
 
-**Microsoft Fabric · Eventstream · Azure Event Grid**
+**Microsoft Fabric · Eventstream · Azure Event Grid · Azure Functions · .NET Aspire**
 
 Companion sample for the article "Fabric: The Hidden Destination". Turns a Fabric Eventstream into a two-way participant in an Azure event-driven architecture, using a Unified Namespace as the shared topic convention: one isolated-worker Function moves events out to Event Grid, a second one brings them back in through the Eventstream's ingestion endpoint. A .NET Aspire AppHost runs the whole round trip on one machine with the Event Hubs and Event Grid emulators standing in for the cloud, so it needs neither an Azure subscription nor a Fabric workspace.
 

@@ -1,31 +1,69 @@
-Hi 👋 I'm Fabian
-=======================
+# Hi, I'm Fabian 👋
 
-Expert Distributed IIoT-Software Solutions
-------------------------------------------
+### Industrial IoT & Enterprise Platforms - Cloud-Native on Azure
 
-I work as an Expert Distributed IIoT Software Solutions and I build <br/>reliable cloud systems for industrial IoT and enterprise platforms — Azure · .NET · DevOps.
+I build cloud systems for industrial IoT and enterprise platforms on Azure. My work runs from **Azure Functions to AKS, in .NET, and private networking** is the part that ties it together.
 
-* 🌍  I'm based in Germany
-* 🖥️  See my portfolio at <a href="http://www.fzankl.de" target="_blank" alt="fzankl.de">fzankl.de</a>
-* ✉️  You can contact me at [info@fzankl.de](mailto:info@fzankl.de)
+More than 15 years in distributed systems, the last ten of them on Microsoft Azure. My samples are written for production questions rather than hello-world demos: what breaks during a migration, how a service behaves behind Private Link, what a landing zone has to provide before a workload can go in.
 
-### Skills
+Articles on [blog.fzankl.de](https://blog.fzankl.de) · Expert Distributed IIoT Software Solutions at WITTENSTEIN SE, Germany
 
-<p align="left">
-<a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/dot-net-colored.svg" width="36" height="36" alt=".NET" /></a>
-<a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/csharp-colored.svg" width="36" height="36" alt="C#" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/typescript-colored.svg" width="36" height="36" alt="TypeScript" /></a>
-<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /></a>
-<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
-<a href="https://sass-lang.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/sass-colored.svg" width="36" height="36" alt="Sass" /></a>
-<a href="https://getbootstrap.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/bootstrap-colored.svg" width="36" height="36" alt="Bootstrap" /></a>
-<a href="https://angular.io/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/angularjs-colored.svg" width="36" height="36" alt="Angular" /></a>
-<a href="https://azure.microsoft.com/" target="_blank" rel="noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" width="36" height="36" alt="Microsoft Azure" /></a>
-<a href="https://www.adobe.com/uk/products/photoshop.html" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/photoshop-colored.svg" width="36" height="36" alt="Photoshop" /></a>
-</p>
+---
 
-### Socials
+## 🛠️ Core technologies
 
-<p align="left"> <a href="https://www.github.com/fzankl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a><a href="https://www.linkedin.com/in/zanfab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a><a href="http://www.medium.com/@fzankl" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" /></a></p>
+![Microsoft Azure](https://img.shields.io/badge/Microsoft%20Azure-0078D4?style=flat-square)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square)
+
+**Azure:** Functions · Flex Consumption · Container Apps · AKS · Virtual Network · Private Link · Log Analytics  
+**Microsoft Fabric:** Eventstream · Private connectivity · Event Grid integration  
+**.NET:** C# · ASP.NET Core · Azure Functions isolated worker · Azure SDKs for .NET  
+**Engineering:** Terraform · Azure CLI  · Azure DevOps · GitHub Actions · CI/CD
+
+---
+
+## 📝 Currently writing about
+
+**Azure Functions: in-process to isolated worker**  
+What breaks, what goes away without replacement, and why the .NET 10 retarget depends on it. Support for .NET 8, .NET 9 and the in-process model ends on 10 November 2026.
+
+**Leaving Linux Consumption**  
+Migration paths to Flex Consumption, Functions on Container Apps and plain Container Apps, with cold-start and cost measurements.
+
+**Private connectivity**  
+Private Link, hub-spoke landing zones, third-party Private Link Services, and what Microsoft Fabric does and does not support behind them.
+
+---
+
+## 🚀 Featured projects
+
+### ☁️ [dotnet-10-azure-migration-path](https://github.com/fzankl/dotnet-10-azure-migration-path)
+
+**.NET 10 · Azure Functions · App Service · Container Apps · Shell**
+
+Companion code for the article ".NET 10 in Azure: A Path Through Your Estate". A two-pass inventory script (Resource Graph first, then an ARM fan-out for what Graph cannot see) lists every app and its runtime version as CSV. Alongside it, before/after configuration pairs for the moves the article describes: Functions from in-process to isolated worker on Consumption, Flex Consumption and Elastic Premium, App Service with a staging slot, and a containerised API with a weighted traffic split on Container Apps. The Terraform and application code is there to be read and diffed, not deployed.
+
+### 🔗 [microsoft-fabric-eventstream-event-grid-integration](https://github.com/fzankl/microsoft-fabric-eventstream-event-grid-integration)
+
+**Microsoft Fabric · Eventstream · Azure Event Grid**
+
+Companion sample for the article "Fabric: The Hidden Destination". Turns a Fabric Eventstream into a two-way participant in an Azure event-driven architecture, using a Unified Namespace as the shared topic convention: one isolated-worker Function moves events out to Event Grid, a second one brings them back in through the Eventstream's ingestion endpoint. A .NET Aspire AppHost runs the whole round trip on one machine with the Event Hubs and Event Grid emulators standing in for the cloud, so it needs neither an Azure subscription nor a Fabric workspace.
+
+### 📄 [docsify-plugin-flexible-alerts](https://github.com/fzankl/docsify-plugin-flexible-alerts)
+
+**JavaScript · docsify**
+
+docsify plugin that turns Markdown blockquotes into configurable alert blocks with preconfigured or custom styles and alert types. 143 stars, 15 forks.
+
+---
+
+## 🌐 Where to find me
+
+Long-form articles on [blog.fzankl.de](https://blog.fzankl.de), samples here on GitHub.  
+On [LinkedIn](https://www.linkedin.com/in/zanfab) I write shorter pieces on the same topics a few times a week.
+
+[LinkedIn](https://www.linkedin.com/in/zanfab) · [fzankl.de](https://www.fzankl.de) · [Medium](https://medium.com/@fzankl) · fabian@fzankl.de
